@@ -1,6 +1,6 @@
 /*Common Styles*/
 body{
-    line-height: 1.7;
+    line-height: 1.9;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
@@ -22,6 +22,12 @@ header{
 /*main Styles*/
 main{
     margin: 0 50px;
+}
+main section{
+    padding: 20px;
+}
+main section ul li{
+    padding-bottom: 10px;
 }
 /*main Styles*/
 
