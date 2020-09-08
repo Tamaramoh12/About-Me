@@ -29,6 +29,14 @@ main section{
 main section ul li{
     padding-bottom: 10px;
 }
+main section ul li a{ 
+    text-decoration: none;
+    background-color: rgb(210, 219, 235);
+    color: black;
+}
+main section h4{
+    border-bottom: 3px groove black;
+}
 /*main Styles*/
 
 /*footer Styles*/

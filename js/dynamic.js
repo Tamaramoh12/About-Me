@@ -35,6 +35,7 @@ if (volunteer.toUpperCase() == 'YES' || volunteer.toUpperCase() == 'Y'){
     //console.log('Put your answer please.');
     alert ('Put your answer please.');
 }
+console.log('The 2nd question was \'Do you like volunteering ?\' and you answered '+ volunteer);
 
 // //Q3
 var major = prompt('Did you study something related to Information Technology ?');
@@ -49,6 +50,7 @@ if (major.toUpperCase() == 'YES' || major.toUpperCase() == 'Y'){
     //console.log('Put your answer please.');
     alert ('Put your answer please.');
 }
+console.log('The 3rd question was\'Did you study something related to Information Technology ?\' and you answered '+ major);
 
 // //Q4
 var drink = prompt('Do you love Nescafe ?');
@@ -63,6 +65,7 @@ if (drink.toUpperCase() == 'YES' || drink.toUpperCase() == 'Y'){
     //console.log('Put your answer please.');
     alert ('Put your answer please.');
 }
+console.log('The 4th question was\'Do you love Nescafe ?\' and you answered '+ drink);
 
 //Q5
 var time = prompt('Are you a morning person ?');
@@ -77,6 +80,9 @@ if (time.toUpperCase() == 'YES' || time.toUpperCase() == 'Y'){
     //console.log('Put your answer please.');
     alert ('Put your answer please.');
 }
+console.log('The 5th question was\'Are you a morning person ?\' and you answered '+ time);
+
+
 
 var userName = prompt('Even if we have common characteristics or no, for sure you are most welcome. So, What is your name dear? ');
 alert('Welcome ' + userName + ' ,wish you enjoy here.')
