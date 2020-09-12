@@ -3,19 +3,32 @@ body{
     line-height: 1.9;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-}
-
-header, footer{
-    text-align: center;
-    font-weight: bold;
-    padding: 10px;
-    background-color: whitesmoke;
+    margin: 0;
+	padding: 0;
+	border: 0;
 }
 /*Common Styles*/
 
 /*header Styles*/
 header{
-    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(193 193 193);
+    margin-top: -30px;
+}
+header nav h2{
+    padding-top: 30px;
+}
+header nav ul{
+    background-color: #ffa2b3;
+}
+header nav ul li{
+    display: inline;
+    padding-right: 25px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
 }
 /*header Styles*/
 
@@ -41,6 +54,23 @@ main section h4{
 
 /*footer Styles*/
 footer{
-    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: -100px;
+    background-color: rgb(193 193 193);
+    padding: 10px 0;
+    text-align: center;
+    /* font-size: 14px; */
+}
+footer ul li{
+    display: inline;
+    padding: 40px;
+}
+footer ul li img{
+    width: 20px;
+    height: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
 }
 /*footer Styles*/
